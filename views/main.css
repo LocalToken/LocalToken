@@ -1,0 +1,101 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+}
+
+.text {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.text-purple {
+    color: rgba(107, 27, 182, 0.747);
+    font-family: "Lucida Console", "Courier New", monospace;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.button {
+    padding: 5px;
+    background-color: blueviolet;
+    border: 1px;
+    border-radius: 5px;
+    min-width: 100px;
+    color: white;
+    transition-duration: 500ms;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.button:hover {
+    background-color: rgb(105, 13, 190);
+    transition-duration: 500ms;
+}
+
+.button:active {
+    background-color: rgb(73, 11, 131);
+}
+
+.frmbutton {
+    padding: 5px;
+    background-color: blueviolet;
+    border: 1px;
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+    transition-duration: 500ms;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.frmbutton:hover {
+    background-color: rgb(105, 13, 190);
+    transition-duration: 500ms;
+}
+
+.frmbutton:active {
+    background-color: rgb(73, 11, 131);
+}
+
+.frminput {
+    padding: 5px;
+    background-color: rgb(43, 43, 43);
+    border: 1px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+    transition-duration: 500ms;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.frminput:hover {
+    background-color: rgb(26, 26, 26);
+    transition-duration: 500ms;
+}
+
+.frminput:active {
+    background-color: rgb(39, 39, 39);
+}
+
+.padd {
+    margin-top: 5px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centervert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

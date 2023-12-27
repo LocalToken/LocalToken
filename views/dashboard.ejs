@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register : LT</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body">
+
+    <div class="center">
+        <div>
+            <a href="/">
+                <button class="button">welcome page</button>
+            </a>
+            <a href="/logout">
+                <button class="button">log out</button>
+
+            </a>
+        </div>
+        <div class="centervert">
+            <form method="post" action="/dashboard/update">
+                <input class="padd frminput" type="text" name="username" placeholder="Username To Share" value="<%- nametoshare %>" required>
+                <br>
+                <input class="padd frminput" type="password" name="password" placeholder="Password To Share" value="<%- passwordstoshare %>" required>
+                <br>
+                <input class="padd frminput" type="text" name="email" placeholder="Email To Share" value="<%- emailtoshare %>" required>
+                <br>
+
+                <button type="submit" class="padd frmbutton">Update Info</button>
+                <br>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
